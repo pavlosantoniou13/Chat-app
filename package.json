@@ -1,8 +1,8 @@
 {
-  "name": "booking",
+  "name": "chat-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pavlosantoniou13.github.io/Chat-app /",
+  "homepage": "https://pavlosantoniou13.github.io/Chat-app/",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
