@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    
       <Routes>
         <Route path="/">
           <Route
@@ -33,7 +33,7 @@ function App() {
           <Route path="register" element={<Register />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    
   );
 }
 
