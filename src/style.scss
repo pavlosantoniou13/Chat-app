@@ -232,6 +232,10 @@
           img {
             height: 24px;
             cursor: pointer;
+            transition: transform 0.15s ease-in-out 0s;
+          }
+          img:hover {
+            transform: scale(1.2);
           }
         }
   
@@ -316,10 +320,16 @@
             display: flex;
             align-items: center;
             gap: 10px;
+            
   
             img {
               height: 24px;
               cursor: pointer;
+              transition: transform 0.15s ease-in-out 0s;
+            }
+
+            img:hover {
+              transform: scale(1.1);
             }
   
             button {
@@ -328,7 +338,15 @@
               color: white;
               background-color: #8da4f1;
               cursor: pointer;
+              font-weight: bold;
+              transition: transform 0.15s ease-in-out 0s;
             }
+
+            button:hover {
+              transform: scale(1.1);
+            }
+
+            
           }
         }
       }
